@@ -12,7 +12,7 @@ function App() {
         liffId: import.meta.env.VITE_LIFF_ID
       })
       .then(() => {
-        setMessage("LIFF init succeeded.");
+        setMessage("おいでませー");
       })
       .catch((e) => {
         setMessage("LIFF init failed.");
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>create-liff-app</h1>
+      <h1>ただ側にいる、それが寄り添い、、、</h1>
       {message && <p>{message}</p>}
       {error && (
         <p>

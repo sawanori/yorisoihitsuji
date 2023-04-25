@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>ただ側にいる、それが寄り添い、、、</h1>
+      <h1>ただ側にいる<br/>それが寄り添い、、、</h1>
       {message && <p>{message}</p>}
       {error && (
         <p>
@@ -34,7 +34,7 @@ function App() {
         target="_blank"
         rel="noreferrer"
       >
-        寄り添い羊サービスのLineアプリです。
+        寄り添い羊サービス（presented by パンツG）
       </a>
     </div>
   );

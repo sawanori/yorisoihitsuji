@@ -34,7 +34,7 @@ function App() {
         target="_blank"
         rel="noreferrer"
       >
-        LIFF Documentation
+        寄り添い羊サービスのLineアプリです。
       </a>
     </div>
   );

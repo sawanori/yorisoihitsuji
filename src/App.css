@@ -6,3 +6,26 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.sheep-button {
+  display: inline-block;
+  margin: 24px auto;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #a6d1c9, #7db0a6);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.sheep-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sheep-button:not(:disabled):hover {
+  transform: translateY(-2px);
+}
